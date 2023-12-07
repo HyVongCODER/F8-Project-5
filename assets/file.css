@@ -793,7 +793,7 @@ position: relative;
     left:37%;
 }
 .clients__box .clients__box-son:last-child{
-    background: yellowgreen;
+    background: gold;
     border:3px solid #DFE2E8;
     border-radius: 5px;
 }
@@ -801,7 +801,7 @@ position: relative;
     width: 10rem;
     height: 10rem;
     rotate: -45deg;
-   background: yellowgreen;
+   background: gold;
     border-left: 3px solid #DFE2E8;
     border-bottom: 3px solid #DFE2E8;
     position: absolute;
