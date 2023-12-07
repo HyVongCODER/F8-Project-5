@@ -779,6 +779,7 @@ position: relative;
 .clients__box-son p{
     padding-top: 5rem;
     width: 47rem;
+    margin:0 auto;
 }
 .clients__triangle{
     width: 0;
