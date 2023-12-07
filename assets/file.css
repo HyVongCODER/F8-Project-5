@@ -715,26 +715,19 @@ margin-left: 1.5rem;
 .clients{
     margin-top: 20rem;
 }
-.clients .container > span {
-    color: #696D77;
-
-font-size: 1.6rem;
-font-style: normal;
-font-weight: 400;
-line-height: 2.8rem; 
-display: inline-block;
-margin-left: auto;
-position: relative;
+.clients .container span{
+    position: relative;
 }
-.clients .container > span::before{
+.clients .container span::before{
+    position: absolute;
     content: "";
     display: inline-block;
     width: 1.8rem;
     height: 0.2rem;
     background: #696D77;
     position: absolute;
-    left: -4px;
-    top:-5px;
+    left: -2.5rem;
+    top: 11px;
 }
 .clients .container > h1{
     color: #212832;
@@ -759,4 +752,72 @@ margin-top:3rem;
 margin-left: auto;
 margin-right: auto;
 line-height: 2.5rem;
+}
+.clients__box{
+    display: flex;
+justify-content: space-around;
+margin-top: 7rem;
+}
+.clients__box-son{
+    width: 48%;
+height: 31.4rem;
+background: #FFF;
+
+filter: drop-shadow(0px 22px 54px rgba(0, 0, 0, 0.07));
+color: #696D76;
+
+text-align: center;
+font-size: 2.2rem;
+font-style: italic;
+font-weight: 400;
+line-height: 3.4rem;
+width: 51.4rem;
+position: relative;
+
+}
+.clients__box-son p{
+    padding-top: 5rem;
+    width: 47rem;
+}
+.clients__triangle{
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 60px solid #FFF;
+    position: absolute;
+    bottom:-6rem;
+    left:37%;
+}
+.clients__box .clients__box-son:last-child{
+    background: transparent;
+    border:1px solid #DFE2E8;
+    border-radius: 5px;
+}
+.clients__box .clients__box-son:last-child .clients__rectangle{
+    width: 10rem;
+    height: 5rem;
+    background: salmon;
+    rotate:45deg;
+   
+    position: absolute;
+    bottom:-6rem;
+    left:37%;
+}
+
+
+.clients__avt{
+    display: flex;
+    justify-content: space-around;
+}
+.clients__box-avt{
+    width: 10.4rem;
+height: 10.4rem;
+border-radius: 5.2rem;
+background: #439f90;
+overflow: hidden;
+margin-top: 10rem;
+}
+.clients__box-avt img{
+    margin-top: 1rem;
 }
