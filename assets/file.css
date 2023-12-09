@@ -1223,3 +1223,11 @@ margin-top: 1rem;
 .hero__form button{
     margin-bottom: 0.5rem;
 }
+footer button {
+    height: 100%;
+    width: 80px;
+    border-radius: 10px;
+    background: seagreen;
+    position: absolute;
+    right:-9rem;
+}
